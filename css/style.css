@@ -12,6 +12,9 @@ body, h1, h2, h3, h4, h5, h6, ul, li, p, a, span{
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    scroll-behavior: smooth;
+}
 body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -51,6 +54,7 @@ img{
 .border_heading h2 {
     color: #2E4488;
     font-size: 18px;
+    font-family: 'Nexa';
     font-weight: 500;
     line-height: 1;
     letter-spacing: 4px;
@@ -63,7 +67,7 @@ img{
 .custom_note h4{
     color: #1E1C1D;
     font-size: 28px;
-    font-family: 'NexaRegular';
+    font-family: 'Nexa';
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -159,7 +163,7 @@ img{
 .blue_gradient_bg h4{
     color: #FFFFFF;
     font-size: 28px;
-    font-family: 'NexaRegular';
+    font-family: 'Nexa';
     font-weight: 600;
     line-height: 1.4;
 }

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Nexa';
-    src: url('../fonts/Nexa-Bold.eot');
-    src: url('../fonts/Nexa-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Nexa-Bold.woff2') format('woff2'),
-        url('../fonts/Nexa-Bold.woff') format('woff'),
-        url('../fonts/Nexa-Bold.ttf') format('truetype');
+    src: url('../fonts/NexaBold.eot');
+    src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBold.woff2') format('woff2'),
+        url('../fonts/NexaBold.woff') format('woff'),
+        url('../fonts/NexaBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -12,18 +12,42 @@
 
 @font-face {
     font-family: 'Nexa';
-    src: url('../fonts/Nexa-Light.eot');
-    src: url('../fonts/Nexa-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Nexa-Light.woff2') format('woff2'),
-        url('../fonts/Nexa-Light.woff') format('woff'),
-        url('../fonts/Nexa-Light.ttf') format('truetype');
-    font-weight: 300;
+    src: url('../fonts/NexaBlack.eot');
+    src: url('../fonts/NexaBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBlack.woff2') format('woff2'),
+        url('../fonts/NexaBlack.woff') format('woff'),
+        url('../fonts/NexaBlack.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'NexaRegular';
+    font-family: 'Nexa Book';
+    src: url('../fonts/NexaBook.eot');
+    src: url('../fonts/NexaBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBook.woff2') format('woff2'),
+        url('../fonts/NexaBook.woff') format('woff'),
+        url('../fonts/NexaBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa XBold';
+    src: url('../fonts/NexaXBold.eot');
+    src: url('../fonts/NexaXBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaXBold.woff2') format('woff2'),
+        url('../fonts/NexaXBold.woff') format('woff'),
+        url('../fonts/NexaXBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
     src: url('../fonts/NexaRegular.eot');
     src: url('../fonts/NexaRegular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/NexaRegular.woff2') format('woff2'),
@@ -33,6 +57,8 @@
     font-style: normal;
     font-display: swap;
 }
+
+
 
 @font-face {
     font-family: 'Proxima Nova Rg';
